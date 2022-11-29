@@ -12,7 +12,7 @@ int ArrayThree(string[] text)                            // Задаем дли�
     return count;
 }
 
-string[] Array(string[] text, int number)
+string[] Array(string[] text, int number)               // Заполнение массива
 {
     string[] massiv = new string[number];
     int count = 0;
