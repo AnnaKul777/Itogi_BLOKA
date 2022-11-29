@@ -27,7 +27,7 @@ string[] Array(string[] text, int number)               // Заполнение 
     return massiv;
 }
 
-void PrintArray(string[] text)
+void PrintArray(string[] text)                           // Вывод на консоль
 {
     for (int i = 0; i < text.Length; i++)
     {
