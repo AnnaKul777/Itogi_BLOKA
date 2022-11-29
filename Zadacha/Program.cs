@@ -11,3 +11,18 @@ int ArrayThree(string[] text)                            // Задаем дли�
     }
     return count;
 }
+
+string[] Array(string[] text, int number)
+{
+    string[] massiv = new string[number];
+    int count = 0;
+    for (int i = 0; i < text.Length; i++)
+    {
+        if (text[i].Length <= 3)
+        {
+            massiv[count] = text[i];
+            count++;
+        }
+    }
+    return massiv;
+}
