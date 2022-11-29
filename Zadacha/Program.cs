@@ -38,3 +38,7 @@ void PrintArray(string[] text)                           // Вывод на ко
     }
 }
 
+string[] ArrMas = new string[7] { "cat", "dog", "77744", " & 6 ) 8", "mom", "sister", "husband" };
+int Arr = ArrayThree(ArrMas);
+string[] ArText = Array(ArrMas, Arr);
+PrintArray(ArText);
