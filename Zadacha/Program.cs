@@ -26,3 +26,15 @@ string[] Array(string[] text, int number)               // Заполнение 
     }
     return massiv;
 }
+
+void PrintArray(string[] text)
+{
+    for (int i = 0; i < text.Length; i++)
+    {
+        if (i < text.Length - 1)
+            Console.Write($" {text[i]},");
+        else
+            Console.Write($" {text[i]}");
+    }
+}
+
